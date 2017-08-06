@@ -10,6 +10,20 @@ namespace Remainders
     {
         static void Main(string[] args)
         {
+            int firstNumbertoCalculateRemainder;
+            int secondNumbertoCalculateRemainder;
+            int quotient;
+            int remainder;
+
+            firstNumbertoCalculateRemainder = 1205;
+            secondNumbertoCalculateRemainder = 12;
+
+            quotient = firstNumbertoCalculateRemainder / secondNumbertoCalculateRemainder;
+            remainder = firstNumbertoCalculateRemainder % secondNumbertoCalculateRemainder;
+
+            Console.WriteLine(firstNumbertoCalculateRemainder + "/" + secondNumbertoCalculateRemainder +
+                " is " + quotient + " remainder " + remainder);
+            Console.ReadLine();
         }
     }
 }
