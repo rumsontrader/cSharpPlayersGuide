@@ -10,6 +10,8 @@ namespace TriangleArea
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
