@@ -35,7 +35,7 @@ namespace Cylinders
             Console.WriteLine();
 
             Console.Write("The surface area or your cylinder is " 
-                + surfaceArea + " cubic inches");
+                + surfaceArea + " square inches");
 
 
             Console.ReadLine();
