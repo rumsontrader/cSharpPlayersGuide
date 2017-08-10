@@ -31,6 +31,9 @@ namespace Cylinders
             volume = pi * (radius * radius) * height;
             surfaceArea = 2 * pi * radius * (radius + height);
 
+            volume = Math.Round(volume, 2);
+            surfaceArea = Math.Round(surfaceArea, 2);
+
             Console.WriteLine("The volume of your cylinder is " + volume + " cubic inches");
             Console.WriteLine();
 
