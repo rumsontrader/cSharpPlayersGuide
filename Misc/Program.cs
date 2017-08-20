@@ -25,7 +25,7 @@ namespace Misc
 
             firstNumberToCheck = Convert.ToDouble(firstOperand);
             secondNumberToCheck = Convert.ToDouble(secondOperand);
-            int i = 0;
+            //int i = 0;
 
            // do
            // {
@@ -37,7 +37,7 @@ namespace Misc
                 {
                     Console.WriteLine("Your multiplication result will be Negative; ");
                 }
-                i = i++;
+                //i = i++;
 
            // }
 

@@ -17,7 +17,7 @@ namespace FizzBuzz
                 if (count % 3 == 0 && count % 5 == 0)
                 {
                     Console.Write("FizzBuzz ");
-                    continue;
+                    //continue;
                 }               
                 if (count % 3 == 0)
                 {
