@@ -17,7 +17,21 @@ namespace MonthsEnum
     
         static void Main(string[] args)
         {
-        MonthsOfYear thisMonth;
+            MonthsOfYear thisMonth;
+            string input;
+
+            Console.WriteLine("Enter a number between 1 and 12");
+            input = Console.ReadLine();
+            int convertedInput = Convert.ToInt32(input);
+
+            if(convertedInput >0 && convertedInput < 13)
+            {
+                thisMonth = (MonthsOfYear)convertedInput;
+                Console.WriteLine($"You picked {thisMonth} as your month ");
+            }
+
+            Console.ReadLine();
+            
         }
     }
 }
